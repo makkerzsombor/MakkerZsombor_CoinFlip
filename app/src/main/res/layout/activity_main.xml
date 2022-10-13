@@ -28,7 +28,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:id="@+id/btnfej"
+            android:id="@+id/btnFej"
             android:text="Fej"
             android:textSize="20sp"
             android:layout_weight="1"/>
@@ -37,7 +37,7 @@
             <Button
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/btniras"
+                android:id="@+id/btnIras"
                 android:text="Írás"
                 android:textSize="20sp"
                 android:layout_weight="1"/>
@@ -48,19 +48,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Dobások: 0"
-            android:textSize="20sp"/>
+            android:textSize="20sp"
+            android:id="@+id/dobasok"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Győzelem: 0"
-            android:textSize="20sp"/>
+            android:textSize="20sp"
+            android:id="@+id/gyozelmek"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Vereség: 0"
-            android:textSize="20sp"/>
+            android:textSize="20sp"
+            android:id="@+id/veresegek"/>
 
     </LinearLayout>
 
